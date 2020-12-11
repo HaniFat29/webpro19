@@ -1,0 +1,270 @@
+body {
+	background-image: url(aset/bg.jpg);
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+
+header{
+	width:950px;
+	margin:25px auto;
+	background:  rgba(213, 216, 24, 0.363);
+	text-align: center;
+	font-family: cursive;
+	color: rgb(80, 0, 0);
+}
+
+header .judul{
+	font-size: 45pt;
+	margin-bottom: 1px;
+}
+
+header .deskripsi{
+	font-size: 17pt;
+	margin-top: 1px;
+
+}
+
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: rgb(213, 216, 24);
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#fff346;
+}
+
+.sidebar {
+	float:right;
+	width:275px;
+}
+
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.sidebar .widget:hover {
+	border-bottom: 2px solid #71bb2b;
+}
+
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#71bb2b;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.sidebar .widget p {
+	font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+	margin:0;
+}
+
+.kartu {
+	float:left;
+}
+
+
+.isi {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.isi .tum img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+
+.isi h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: rgb(81, 83, 0);
+	font-family: cursive;
+}
+
+.isi p:last-child {
+	margin: 0;
+}
+
+.kartu-lengkap {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+.kartu-lengkap:hover {
+	margin-left:10px;
+}
+
+table.hotitems {
+    width: 100%;
+    padding: 0px;
+    background-color: #aacc30;
+    font-family: Verdana;
+    font-size: 8pt;
+    line-height: 18px;
+    color: rgb(0, 136, 57);
+    text-align: center;
+}
+
+tr.hotitems {
+    background-color: #fff;
+}
+
+td.hotitems {
+    vertical-align: top;
+}
+
+.thumb-image {
+    display: inline-block;
+    position: relative;
+	width: auto;
+}
+
+table.hotitems img {
+    max-width: 100%;
+}
+
+h2.product-title, h3.product-title {
+    line-height: inherit;
+    margin: inherit;
+}
+
+@media screen and (max-width: 960px) {
+
+	.header {
+		position:inherit;
+	}
+
+	.wrap {
+		width: 90%;
+		margin:25px auto;
+	}
+	.sidebar {
+		width:100%;
+		margin:25px 0 0;
+		float:right;
+	}
+
+	.sidebar .widget {
+		padding:5%;
+	}
+
+	nav.menu ul {
+		width: 100%;
+	}
+
+	nav.menu ul {
+		float:inherit;
+	}
+
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #1abf9f;
+		border-bottom:1px solid #16a085;
+	}
+
+	.blog {
+		width:90%;
+	}
+
+	
+	.isi {
+		float:inherit;
+		margin:0 auto 25px;
+		width:90%;
+		border:1px solid #dedede;
+		padding:5%;  
+		background: #fff;
+	}
+
+	
+	.isi .tum img {
+		max-width: 100%;
+		margin:0 0 25px -5%;
+		min-width: 100%;
+	}
+
+	.kartu-lengkap:hover {
+		margin-left:0;
+	}
+
+	table.hotitems {
+		float:inherit;
+		margin:0 auto 25px;
+		width:101%;
+		border:1px solid #dedede;
+		background-color: #aacc30;
+		font-family: Verdana;
+		font-size: 7pt;
+		line-height: 18px;
+		color: rgb(0, 136, 57);
+		text-align: center;
+	}
+
+	table.hotitems img {
+		max-width: 110%;
+		margin:0 0 25px -5%;
+		min-width: 110%;
+	}
+
+}
