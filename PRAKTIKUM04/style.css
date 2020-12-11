@@ -1,0 +1,163 @@
+body {
+	background-image: url("aset/bak.jpg");
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+
+header{
+	background-color:#202345;
+	color: #810000 ;
+}
+header .logo{
+	text-align: left;
+	width: 120px;
+	margin-top: 20px;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	margin-right: 40px;
+}
+
+header .namaHotel{
+	display: inline-block;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40pt;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: whitesmoke;
+}
+
+header .deskripsi{
+	display: inline-block;
+	margin-left: 25%;
+	font-size: 30pt;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: #327d94;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	position;
+}
+
+nav.menu ul li {
+	margin-left: 80px;
+	float:left;
+}
+
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#810000;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	background: rgb(255, 83, 83);
+}
+
+.sidebar {
+	float:right;
+	width:275px;
+}
+
+.sidebar .Skotak {
+	padding:25px;
+	margin:0 0 25px;
+	background: #327d94;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.sidebar .Skotak:hover {
+	border: 2px solid rgb(255, 83, 83);
+}
+
+.sidebar .Skotak h2,h3 {
+	padding:0;
+	margin:0 0 15px;
+	color:#810000;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.sidebar .Skotak p {
+	font-size: 14px;
+}
+
+.sidebar .Skotak p:last-child {
+	margin:0;
+}
+
+.isi {
+	float:left;
+}
+
+h1{
+	color: #810000;
+}
+
+.kotak {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background:#327d94;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.kotak img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+
+.kotak .icon img{
+	min-width: 70px;
+	margin: 10px;
+	max-width: 70px;
+
+.kotak h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.kotak p:last-child {
+	margin: 0;
+}
+
+.kotak .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
